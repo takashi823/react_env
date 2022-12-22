@@ -16,6 +16,7 @@ import dayGridPlugin from '@fullcalendar/daygrid'
 import interactionPlugin from '@fullcalendar/interaction'
 
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+
 import LocalPrintshopRoundedIcon from '@mui/icons-material/LocalPrintshopRounded';
 import { AppBar, Container, Grid, Toolbar, Typography } from "@mui/material";
 import FormGroup from '@mui/material/FormGroup';
@@ -30,7 +31,7 @@ export const Calendar: React.FC = props => {
 
   return (
     <div>
-          <AppBar position="relative" color="inherit">
+      <AppBar position="relative" color="inherit">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
